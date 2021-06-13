@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
 this.state = {
   date: date
 };
-  return <Component {...pageProps,this.state} />
+  return <Component {...pageProps,state} />
 }
 
 export default MyApp

@@ -2,12 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
-    var today = new Date(),
-        date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
-
-    this.state = {
-        date: date
-    };
+   
 
   return (
     <div className={styles.container}>

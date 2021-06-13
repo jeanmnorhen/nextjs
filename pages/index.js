@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>date</title>
+        <title>{this.state.date}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
